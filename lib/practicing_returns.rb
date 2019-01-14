@@ -7,6 +7,7 @@ def hello(array)
     collection << yield(array[1])
     i += 1
   end
+  collection
 end
 
 
